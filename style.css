@@ -1,0 +1,25 @@
+@import url(/styles/header.css);
+@import url(/styles/banner.css);
+@import url(/styles/about.css);
+@import url(/styles/depoimentos.css);
+@import url(/styles/footer.css);
+
+:root {
+    --cor-de-fundo: #ffffff;
+    --vermelho-principal: #8E2424;
+    --cinza-principal: #667085;
+    --cinza-escuro: #3A404E;
+    --cinza-secundario: #101828;
+    --fonte-principal: "Inter";
+    
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    color: var(--cinza-principal);
+    font-weight: 400;
+    
+
+}
